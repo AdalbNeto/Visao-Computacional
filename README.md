@@ -137,5 +137,4 @@ O projeto cumpre integralmente seus objetivos e encontra-se finalizado para fins
 ## 👤 Autor
 
 **Adalberto Ferreira de Albuquerque Neto**  
-Pós-Graduação em **Inteligência Artificial e Visão Computacional — FIAP / Alura**  
-Projeto desenvolvido no contexto de **Tech Challenge 01**
+Pós-Graduação FIAP / Alura **Projeto desenvolvido no contexto de **Tech Challenge 01**
