@@ -14,7 +14,7 @@ O modelo, baseado em **Redes Neurais Convolucionais (CNNs)**, diferencia tecidos
 O estudo reforça o potencial da **Inteligência Artificial aplicada à patologia digital**, favorecendo diagnósticos assistidos e reprodutíveis.
 
 ---
-
+ 
 ## 🎯 Objetivo
 
 Desenvolver e avaliar um pipeline de **visão computacional** para classificação automatizada de tumores mamários em imagens histológicas, com ênfase em:
