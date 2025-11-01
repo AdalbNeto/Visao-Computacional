@@ -7,14 +7,14 @@
 
 ---
 
-## 🧾 Resumo
+## 🗾 Resumo
 
 Este projeto apresenta uma abordagem de **aprendizado profundo** para a **classificação binária de imagens histopatológicas de tumores mamários**, utilizando o banco de dados **BreaKHis**.  
 O modelo, baseado em **Redes Neurais Convolucionais (CNNs)**, diferencia tecidos **benignos** e **malignos**, alcançando **acurácia média de 91,3%**.  
 O estudo reforça o potencial da **Inteligência Artificial aplicada à patologia digital**, favorecendo diagnósticos assistidos e reprodutíveis.
 
 ---
- 
+
 ## 🎯 Objetivo
 
 Desenvolver e avaliar um pipeline de **visão computacional** para classificação automatizada de tumores mamários em imagens histológicas, com ênfase em:
@@ -39,6 +39,21 @@ O projeto foi desenvolvido em **Python 3.10**, com bibliotecas:
 5. Avaliação com métricas quantitativas e geração de gráficos.
 
 ---
+ 
+## 🗂️ Dataset
+
+O conjunto de dados utilizado neste projeto é o **BreaKHis – Breast Cancer Histopathological Database**, disponibilizado pela **Universidade Federal do Paraná (UFPR)**.  
+Disponível em: [https://web.inf.ufpr.br/vri/databases/breast-cancer-histopathological-database-breakhis/](https://web.inf.ufpr.br/vri/databases/breast-cancer-histopathological-database-breakhis/)
+
+O BreaKHis contém **7.909 imagens histopatológicas** de tumores mamários, obtidas de **82 pacientes**, com ampliações de **40×, 100×, 200× e 400×**.  
+As imagens estão divididas em duas classes principais:
+
+- **Benignas:** Adenosis, Fibroadenoma, Tubular Adenoma, Phyllodes Tumor  
+- **Malignas:** Carcinoma Ductal, Lobular, Mucinoso, Papilífero  
+
+> **Uso:** Os dados foram utilizados exclusivamente para fins **acadêmicos e de pesquisa**, respeitando as condições de uso descritas no site oficial.
+
+---
 
 ## 🧪 Protocolo de Avaliação
 
@@ -48,7 +63,7 @@ O projeto foi desenvolvido em **Python 3.10**, com bibliotecas:
 | **Magnificação** | Somente ≥ 200× |
 | **Classes** | `benign` / `malignant` |
 | **Divisão dos dados** | *Folds* predefinidos (`fold = 2`) |
-| **Controle de viés** | Separação por paciente para evitar sobreposição |
+| **Controle de viés** | Separacão por paciente para evitar sobreposição |
 | **Validação cruzada** | 5-fold cross validation |
 | **Métricas reportadas** | Média ± Desvio padrão (acurácia, precisão, recall, F1) |
 
@@ -137,4 +152,5 @@ O projeto cumpre integralmente seus objetivos e encontra-se finalizado para fins
 ## 👤 Autor
 
 **Adalberto Ferreira de Albuquerque Neto**  
-Pós-Graduação FIAP / Alura **Projeto desenvolvido no contexto de **Tech Challenge 01**
+Pós-Graduação FIAP / Alura **Projeto desenvolvido no contexto de Tech Challenge 01**
+
